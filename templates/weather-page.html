@@ -9,16 +9,22 @@
 <body>
 
  
-    <p>Hello {{WHATEVER}}!</p>
-    
-        <form method="post" action="/weather">
+    <p>Hello {{WHATEVER}}! To move on to the next stage, give me the weather in your city</p>
+   
+<div>
+		<form method='post' action="/weather"><br>
+		  	<input type="city" name="city" id="city"><br>
+			<input type= "submit" value="Submit">
+		</form>
+	</div>
+
+
+<!---	        <form method="post" action="/weather">
     			<label for="city">Give me weather in:</label>
     			<input type="city" id="city" name="city" required="required">
     			<input type="submit" value="Submit" id="submit-button">
     		</form>
-    	</div>
-s
-
+    	</div> -->
 
 
 </body>
